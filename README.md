@@ -26,7 +26,11 @@ python scripts/model_training.py
 ```bash
 python scripts/fitness_nutrition_app.py
 ```
-
+## Tests 
+Run the tests to ensure everything is working correctly:
+```bash
+    pytest tests/
+```
 ## Licene
 
 This project is licensed under a custom license. For more details, see the [LICENSE](LICENSE) file.
