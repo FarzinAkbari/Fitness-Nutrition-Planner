@@ -1,8 +1,7 @@
-import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
+import joblib
 
 def load_model():
-    model = RandomForestRegressor()
+    model = joblib.load('model.pkl')
     return model
 
 def predict_calories_needed(model, age, weight, height):
@@ -16,4 +15,4 @@ if __name__ == "__main__":
     model = load_model()
     calories_needed = predict_calories_needed(model, age, weight, height)
     print(f"Calories needed: {calories_needed}")
-
+~                                                                                                     ~                                                                                                     ~                                                     

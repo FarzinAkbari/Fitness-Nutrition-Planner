@@ -22,3 +22,4 @@ if __name__ == "__main__":
     model, error = train_model(df)
     print(f"Model trained with MAE: {error}")
 
+~                                                                                                     ~                                                                                                     ~                                                   
